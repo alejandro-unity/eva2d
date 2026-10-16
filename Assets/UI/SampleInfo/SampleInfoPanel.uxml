@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <ui:Style src="SampleInfoPanel.uss" />
+    <ui:VisualElement name="screen" class="sample-info-screen" picking-mode="Ignore">
+        <ui:VisualElement name="panel" class="sample-info-panel">
+            <ui:Label name="titleLabel" class="sample-info-title" text="Sample" />
+            <ui:Label name="descriptionLabel" class="sample-info-description" text="Description" />
+            <ui:Label class="sample-info-section" text="2D Physics Core API used" />
+            <ui:VisualElement name="apiList" />
+            <ui:Label class="sample-info-section" text="Live" />
+            <ui:Label name="countersLabel" class="sample-info-counters" text="-" />
+            <ui:Label class="sample-info-hint" text="[I] hide / show this panel" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
